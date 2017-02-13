@@ -1,0 +1,50 @@
+I, [2017-02-13T16:54:44.253418 #95021]  INFO -- : Refreshing Gem list
+I, [2017-02-13T16:54:46.504005 #95021]  INFO -- : listening on addr=/Users/phuong/workspace/blog/shared/sockets/unicorn.sock fd=29
+I, [2017-02-13T16:54:46.504198 #95021]  INFO -- : worker=0 spawning...
+I, [2017-02-13T16:54:46.505291 #95021]  INFO -- : worker=1 spawning...
+I, [2017-02-13T16:54:46.505930 #95021]  INFO -- : master process ready
+I, [2017-02-13T16:54:46.506836 #95041]  INFO -- : worker=0 spawned pid=95041
+I, [2017-02-13T16:54:46.507641 #95042]  INFO -- : worker=1 spawned pid=95042
+I, [2017-02-13T16:54:46.508066 #95041]  INFO -- : worker=0 ready
+I, [2017-02-13T16:54:46.509293 #95042]  INFO -- : worker=1 ready
+I, [2017-02-13T16:56:41.005603 #95021]  INFO -- : reaped #<Process::Status: pid 95042 exit 0> worker=1
+I, [2017-02-13T16:56:41.012388 #95021]  INFO -- : reaped #<Process::Status: pid 95041 exit 0> worker=0
+E, [2017-02-13T16:56:41.012761 #95021] ERROR -- : reaped #<Process::Status: pid 95037 SIGINT (signal 2)> worker=unknown
+E, [2017-02-13T16:56:41.012939 #95021] ERROR -- : reaped #<Process::Status: pid 95032 SIGINT (signal 2)> worker=unknown
+I, [2017-02-13T16:56:41.014344 #95021]  INFO -- : master complete
+I, [2017-02-13T16:56:44.047013 #97433]  INFO -- : Refreshing Gem list
+I, [2017-02-13T16:56:46.285916 #97433]  INFO -- : unlinking existing socket=/Users/phuong/workspace/blog/shared/sockets/unicorn.sock
+I, [2017-02-13T16:56:46.286733 #97433]  INFO -- : listening on addr=/Users/phuong/workspace/blog/shared/sockets/unicorn.sock fd=23
+I, [2017-02-13T16:56:46.287474 #97433]  INFO -- : worker=0 spawning...
+I, [2017-02-13T16:56:46.289037 #97433]  INFO -- : worker=1 spawning...
+I, [2017-02-13T16:56:46.291089 #97433]  INFO -- : master process ready
+I, [2017-02-13T16:56:46.291220 #97453]  INFO -- : worker=0 spawned pid=97453
+I, [2017-02-13T16:56:46.292101 #97453]  INFO -- : worker=0 ready
+I, [2017-02-13T16:56:46.293225 #97454]  INFO -- : worker=1 spawned pid=97454
+I, [2017-02-13T16:56:46.294385 #97454]  INFO -- : worker=1 ready
+E, [2017-02-13T16:57:39.435567 #97433] ERROR -- : reaped #<Process::Status: pid 97454 SIGKILL (signal 9)> worker=1
+I, [2017-02-13T16:57:39.437061 #97433]  INFO -- : worker=1 spawning...
+I, [2017-02-13T16:57:39.440372 #98229]  INFO -- : worker=1 spawned pid=98229
+I, [2017-02-13T16:57:39.441760 #98229]  INFO -- : worker=1 ready
+E, [2017-02-13T16:57:42.944336 #97433] ERROR -- : reaped #<Process::Status: pid 97453 SIGKILL (signal 9)> worker=0
+I, [2017-02-13T16:57:42.945654 #97433]  INFO -- : worker=0 spawning...
+I, [2017-02-13T16:57:42.951148 #98427]  INFO -- : worker=0 spawned pid=98427
+I, [2017-02-13T16:57:42.952670 #98427]  INFO -- : worker=0 ready
+I, [2017-02-13T16:58:07.507628 #99017]  INFO -- : Refreshing Gem list
+I, [2017-02-13T16:58:09.705481 #99017]  INFO -- : unlinking existing socket=/Users/phuong/workspace/blog/shared/sockets/unicorn.sock
+I, [2017-02-13T16:58:09.706285 #99017]  INFO -- : listening on addr=/Users/phuong/workspace/blog/shared/sockets/unicorn.sock fd=30
+I, [2017-02-13T16:58:09.708482 #99017]  INFO -- : listening on addr=0.0.0.0:3000 fd=31
+I, [2017-02-13T16:58:09.709245 #99017]  INFO -- : worker=0 spawning...
+I, [2017-02-13T16:58:09.711035 #99017]  INFO -- : worker=1 spawning...
+I, [2017-02-13T16:58:09.712641 #99017]  INFO -- : master process ready
+I, [2017-02-13T16:58:09.712466 #99037]  INFO -- : worker=0 spawned pid=99037
+I, [2017-02-13T16:58:09.714558 #99037]  INFO -- : worker=0 ready
+I, [2017-02-13T16:58:09.715759 #99038]  INFO -- : worker=1 spawned pid=99038
+I, [2017-02-13T16:58:09.717138 #99038]  INFO -- : worker=1 ready
+127.0.0.1 - - [13/Feb/2017:16:58:16 +0900] "GET /admin/accessories HTTP/1.1" 404 53644 0.7737
+127.0.0.1 - - [13/Feb/2017:16:58:17 +0900] "GET /favicon.ico HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [13/Feb/2017:16:58:17 +0900] "GET / HTTP/1.1" 304 - 0.0256
+127.0.0.1 - - [13/Feb/2017:17:32:19 +0900] "GET /admin/accessories HTTP/1.1" 404 53644 0.3474
+127.0.0.1 - - [13/Feb/2017:17:32:20 +0900] "GET /favicon.ico HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [13/Feb/2017:17:32:25 +0900] "GET / HTTP/1.1" 304 - 0.0159
+127.0.0.1 - - [13/Feb/2017:17:32:33 +0900] "GET / HTTP/1.1" 304 - 0.6856
